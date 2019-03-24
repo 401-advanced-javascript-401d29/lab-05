@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/charmedsatyr-401-advanced-javascript/lab-05.git"
+    "url": "git+https://github.com/401-advanced-javascript-401d29/lab-05"
   },
   "author": "Joseph Wolfe/Erin Trainor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/charmedsatyr-401-advanced-javascript/lab-05/issues"
+    "url": "https://github.com/401-advanced-javascript-401d29/lab-05"
   },
   "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-05#readme",
   "scripts": {

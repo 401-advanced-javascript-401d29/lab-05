@@ -131,4 +131,4 @@
 
 
 #### UML
-![UML IMAGE](../lab-05/lib/assets/bitmap_uml.jpg)
+![UML IMAGE](assets/bitmap_uml.jpg)
