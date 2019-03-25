@@ -6,7 +6,7 @@
 ### Author: Erin Trainor and Joseph Wolfe
 
 ### Links and Resources
-* [pull request](http://xyz.com)
+* [pull request](https://github.com/401-advanced-javascript-401d29/lab-05/pull/2)
 * [travis](https://www.travis-ci.com/401-advanced-javascript-401d29) [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-05.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-05)
 
 #### Documentation
