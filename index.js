@@ -9,8 +9,8 @@ const writeFile = promisify(fs.writeFile);
 const angelOfMusic = require('./lib/angelOfMusic.js');
 const greyscale = require('./lib/greyscale.js');
 const shave = require('./lib/shave.js');
-// const randomlyPastel = require('./lib/randomlyPastel.js');
-// const soRandom = require('./lib/soRandom.js');
+const randomlyPastel = require('./lib/randomlyPastel.js');
+const soRandom = require('./lib/soRandom.js');
 
 /**
  * Bitmap -- receives a path to a file, used in the transformer to note the new buffer
@@ -81,10 +81,10 @@ class Bitmap {
 
       let transformed;
       switch (mode) {
-        // case 'soRandom':
-        // case 'random':
-        //   transformed = await soRandom(buffer);
-        //   break;
+        case 'soRandom':
+        case 'random':
+          transformed = await soRandom(buffer);
+          break;
         case 'shave':
           transformed = await shave(buffer);
           break;
@@ -96,12 +96,12 @@ class Bitmap {
         case 'greyscale':
           transformed = await greyscale(buffer);
           break;
-        // case 'randomlyPastel':
-        // case 'pastel':
-        //   transformed = await randomlyPastel(buffer);
-        //   break;
+        case 'randomlyPastel':
+        case 'pastel':
+          transformed = await randomlyPastel(buffer);
+          break;
         default:
-          // console.log(`Something is wrong. Output not modified.`);
+          console.log(`Something is wrong. Output not modified.`);
           transformed = buffer;
           break;
       }
